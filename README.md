@@ -1,7 +1,7 @@
-# Document Chatbot using LangChain & Streamlit (No OpenAI)
+# Document Chatbot using LangChain & Streamlit
 
 This is a **Streamlit-based Document Chatbot App** that allows users to upload PDFs, extract text, embed content, and chat with the document intelligently — all **without using OpenAI APIs**.  
-It uses **LangChain**, **FAISS**, **Sentence Transformers**, and **Hugging Face models** for retrieval and response generation.
+It uses **LangChain**,**Sentence Transformers**, and **Hugging Face models** for retrieval and response generation.
 
 ---
 
