@@ -1,17 +1,19 @@
-# Document Chatbot using LangChain & Streamlit
+# Offline Document Q&A Chatbot (RAG System)
 
-This is a **Streamlit-based Document Chatbot App** that allows users to upload PDFs, extract text, embed content, and chat with the document intelligently — all **without using OpenAI APIs**.  
-It uses **LangChain**,**Sentence Transformers**, and **Hugging Face models** for retrieval and response generation.
+A simple and powerful **offline document chatbot** built using **Streamlit**, **Sentence Transformers**, and **Hugging Face Transformers**.  
+It allows you to upload a document (PDF or TXT), processes it into chunks, embeds the text, retrieves relevant sections, and answers questions — all **without using any online API or OpenAI**.
 
 ---
 
 ## Features
 
-- 📄 Upload and read **multiple PDF documents**
-- 🧩 Extract and process text automatically
-- 🔍 Use **FAISS** for semantic search and retrieval
-- 🧠 Generate answers contextually using **Hugging Face transformers**
-- ⚡ Completely offline — **no OpenAI or API keys required**
-- 🌐 Clean, interactive **Streamlit UI**
+- 📄 Upload and process **PDF or TXT** documents  
+- ✂️ Automatic text chunking for better understanding  
+- 🔍 Retrieve relevant document context for your query  
+- 🧠 Generate answers using a **local Hugging Face model (`google/flan-t5-base`)**  
+- ⚡ Works fully **offline** (no internet or API key needed)  
+- 🎨 Simple and interactive **Streamlit UI**
 
 ---
+
+
